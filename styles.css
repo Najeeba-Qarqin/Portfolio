@@ -177,3 +177,17 @@ ul li a:hover {
 .contact div img:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 1000px) {
+  #welcome-section {
+    height: 90vh;
+  }
+
+  #home {
+    height: 90vh;
+  }
+
+  #welcome-section h1 {
+    font-size: 60px;
+  }
+}
