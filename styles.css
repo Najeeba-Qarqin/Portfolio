@@ -73,7 +73,7 @@ ul li a:hover {
   margin-left: 20px;
 }
 
-#project {
+#projects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -83,7 +83,7 @@ ul li a:hover {
   gap: 50px;
 }
 
-#project > h1 {
+#projects > h1 {
   color: black;
   font-size: 35px;
   font-weight: bold;
@@ -91,7 +91,7 @@ ul li a:hover {
   border-bottom: 5px solid black;
 }
 
-#project div {
+#projects div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,11 +128,11 @@ ul li a:hover {
   border: 2px solid black;
 }
 
-#project img:hover {
+#projects img:hover {
   opacity: 0.7;
 }
 
-#project a {
+#projects a {
   color: white;
   margin: 10px;
   font-weight: bolder;
@@ -140,7 +140,7 @@ ul li a:hover {
   text-decoration: none;
 }
 
-#project a:hover {
+#projects a:hover {
   text-decoration: underline;
 }
 
@@ -232,20 +232,20 @@ ul li a:hover {
     font-size: 25px;
   }
 
-  #project {
+  #projects {
     padding: 70px 0 0 0;
   }
 
-  #project h1 {
+  #projects h1 {
     font-size: 20px;
   }
 
-  #project div img {
+  #projects div img {
     height: 30vh;
     width: auto;
   }
 
-  #project a {
+  #projects a {
     font-size: 15px;
   }
 
