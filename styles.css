@@ -168,3 +168,66 @@ nav a li {
   width: 45px;
   height: 45px;
 }
+
+@media (min-width: 700px) {
+  body {
+    line-height: 24px;
+    background-size: cover;
+  }
+
+  header {
+    height: 40px;
+  }
+
+  .button a {
+    padding: 8px;
+    font-size: 11px;
+  }
+
+  #home {
+    width: 60%;
+  }
+
+  .prof {
+    width: 300px;
+    height: 300px;
+  }
+
+  .prof img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .home-content {
+    font-size: 18px;
+  }
+
+  #home h2 {
+    font-size: 22px;
+  }
+
+  #about {
+    font-size: 18px;
+    width: 60%;
+  }
+
+  #about img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .projects h1 {
+    font-size: 20px;
+  }
+
+  .project {
+    width: 60%;
+    font-size: 16px;
+    padding: 50px;
+  }
+
+  .imgs img {
+    width: 100%;
+    height: auto;
+  }
+}
