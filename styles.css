@@ -231,3 +231,101 @@ nav a li {
     padding: 50px;
   }
 }
+
+@media (min-width: 900px) {
+  body {
+    line-height: 30px;
+  }
+
+  nav {
+    width: 70%;
+    margin-left: 100px;
+  }
+
+  #title {
+    display: block;
+    font-family: Impact;
+    letter-spacing: 1px;
+    color: rgb(130, 32, 215);
+    margin: 12px 170px 0 0;
+  }
+  
+  header {
+    height: 60px;
+  }
+
+  .button a {
+    font-size: 14px;
+    padding: 16px;
+  }
+
+  #home {
+    padding-top: 20px;
+    width: 50%;
+  }
+
+  #home h2 {
+    font-size: 30px;
+  }
+
+  .prof {
+    width: 400px;
+    height: 400px;
+  }
+
+  .prof img {
+    width: 350px;
+    height: 350px;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #about div img {
+    width: 350px;
+    height: 350px;
+  }
+
+  #about div {
+    width: 50%;
+    margin: 40px;
+    font-size: 18px;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-top: 90px;
+  }
+
+  .projects h1 {
+    font-size: 25px;
+    width: 90%;
+  }
+
+  .project {
+    width: 30%;
+    height: 400px;
+  }
+
+  .project h1 {
+    font-size: 18px;
+  }
+
+  #contact {
+    padding: 10px;
+  }
+
+  #contact div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}
