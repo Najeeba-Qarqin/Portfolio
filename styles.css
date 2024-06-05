@@ -244,12 +244,12 @@ nav a li {
 
   #title {
     display: block;
-    font-family: Impact;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1px;
     color: rgb(130, 32, 215);
     margin: 12px 170px 0 0;
   }
-  
+
   header {
     height: 60px;
   }
