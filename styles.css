@@ -43,6 +43,15 @@ nav {
   letter-spacing: 0.5px;
 }
 
+.project a {
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 10px;
+  color: black;
+  font-weight: 900;
+  background-color: white;
+}
+
 .button a:hover {
   text-decoration: underline;
 }
@@ -92,6 +101,11 @@ nav a li {
   margin: 20px 50px;
 }
 
+.imgs img {
+  width: 222px;
+  height: auto;
+}
+
 #about img {
   border-radius: 20%;
   width: 160px;
@@ -125,20 +139,6 @@ nav a li {
 
 .project h1 {
   font-size: 15px;
-}
-
-.project a {
-  text-decoration: none;
-  padding: 4px 10px;
-  border-radius: 10px;
-  color: black;
-  font-weight: 900;
-  background-color: white;
-}
-
-.imgs img {
-  width: 222px;
-  height: auto;
 }
 
 #contact {
