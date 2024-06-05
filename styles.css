@@ -1,10 +1,10 @@
 @media (max-width: 315px) {
   body {
-    box-shadow: 10 10 20 inset black;
     border-radius: 24px;
     background: url(imgs/BGpic.jpg);
     background-position: center;
     background-size: cover;
+    font-family: sans-serif;
     background-attachment: fixed;
   }
 
@@ -27,21 +27,12 @@
     justify-content: space-around;
   }
 
-  nav a {
+  .button a {
     text-decoration: none;
     transition: 0.4s ease;
     border-radius: 20px;
     color: black;
-    padding: 7px;
-  }
-
-  nav a:hover {
-    background-color: black;
-    color: white;
-  }
-
-  nav a li {
-    list-style: none;
+    padding: 5px;
     font-size: 9px;
     font-weight: 800;
     text-align: center;
@@ -49,11 +40,20 @@
     letter-spacing: 0.5px;
   }
 
+  .button a:hover {
+    background-color: white;
+  }
+
+  nav a li {
+    list-style: none;
+  }
+
   #home {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 30px;
   }
 
   .prof {
@@ -61,16 +61,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 178px;
-    height: 178px;
-    margin: 50px;
+    width: 160px;
+    height: 160px;
+    margin: 50px 20px 20px 20px;
     border-radius: 317px;
   }
 
   .prof img {
-    width: 178px;
-    height: 178px;
+    width: 160px;
+    height: 160px;
     margin: auto;
     border-radius: 317px;
+  }
+  
+  .home-content {
+    margin: 3px;
+    font-size: 10px;
+  }
+
+  #home h2 {
+    font-size: 12px;
+  }
+
+  img {
+    height: 100px;
+    width: 100px;
   }
 }
