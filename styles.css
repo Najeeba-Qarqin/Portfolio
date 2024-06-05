@@ -24,7 +24,7 @@
   nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .button a {
@@ -48,19 +48,18 @@
     list-style: none;
   }
 
-  #home {
+  .flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  #home {
     margin: 30px 50px;
   }
 
   .prof {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 160px;
     height: 160px;
     margin: 50px 20px 20px 20px;
@@ -84,10 +83,6 @@
   }
 
   #about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     font-size: 10px;
     padding-top: 50px;
@@ -101,10 +96,6 @@
   }
 
   .projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-top: 40px;
     margin: 50px;
     font-size: 10px;
@@ -120,10 +111,6 @@
   }
 
   .project {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 20px 10px;
     padding: 20px;
     border: double white;
@@ -152,10 +139,6 @@
   }
 
   #contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     margin: 20px;
     padding-top: 140px;
@@ -183,3 +166,4 @@
     height: 55px;
   }
 }
+
