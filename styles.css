@@ -50,6 +50,8 @@ nav {
   color: black;
   font-weight: 900;
   background-color: white;
+  margin: 30px;
+  transition: 0.5s ease-in-out;
 }
 
 .button a:hover {
@@ -139,11 +141,6 @@ nav a li {
 
 .project h1 {
   font-size: 15px;
-}
-
-.project a {
-  margin: 30px;
-  transition: 0.5s ease-in-out;
 }
 
 .project a:hover {
