@@ -32,7 +32,7 @@ nav {
 
 .button a {
   text-decoration: none;
-  transition: 0.4s ease;
+  transition: 0.6s ease;
   border-radius: 20px;
   color: black;
   padding: 5px;
@@ -50,10 +50,12 @@ nav {
   color: black;
   font-weight: 900;
   background-color: white;
+  margin: 30px;
+  transition: 0.5s ease-in-out;
 }
 
 .button a:hover {
-  text-decoration: underline;
+  color: rgb(130, 32, 215);
 }
 
 nav a li {
@@ -141,6 +143,11 @@ nav a li {
   font-size: 15px;
 }
 
+.project a:hover {
+  background-color: rgb(130, 32, 215);
+  color: white;
+}
+
 #contact {
   text-align: center;
   margin: 20px;
@@ -161,12 +168,10 @@ nav a li {
   width: 40px;
   height: 40px;
   border-radius: 200px;
-  transition: 0.8s ease;
 }
 
 #contact div a img:hover {
-  width: 45px;
-  height: 45px;
+  opacity: 0.7;
 }
 
 @media (min-width: 700px) {
@@ -309,8 +314,8 @@ nav a li {
   }
 
   .project {
-    width: 30%;
-    height: 400px;
+    width: 25%;
+    height: 350px;
   }
 
   .project h1 {
@@ -318,7 +323,7 @@ nav a li {
   }
 
   #contact {
-    padding: 10px;
+    padding: 160px;
   }
 
   #contact div {
