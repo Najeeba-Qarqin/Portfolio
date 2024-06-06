@@ -3,88 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav id="navbar">
-      <h1 class="title">PORTFOLIO</h1>
-      <ul>
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
+  <header id="welcome-section">
+    <nav id="navbar" class="button">
+      <h1 id="title">Najeeba_Qarqin</h1>
+      <a href="#home"><li>HOME</li></a>
+      <a href="#about"><li>ABOUT</li></a>
+      <a href="#projects"><li>PROJECTS</li></a>
+      <a href="#contact"><li>CONTACT</li></a>
     </nav>
   </header>
-  <section id="welcome-section">
-    <div class="box1" id="home">
-    <h1>Welcome</h1>
-  </div>
-  </section>
-  <h1 id="project">PROJECTS</h1>
-  <section id="projects">
-    <div class="project1">
-    <h1 class="project-tile">
-      Survey Form
-    </h1>
-    <a href="imgs/survey-form.jpg">
-    <img src="imgs/survey-form.jpg" alt="form">
-  </a>
-    <a href="https://github.com/Najeeba-Qarqin/Survey-Form">GitHub Link</a>
-  </div>
-  <div class="project2">
-    <h1 class="project-tile">
-      Tribute Page
-    </h1>
-    <a href="imgs/tribute-page.jpg">
-    <img src="imgs/tribute-page.jpg" alt="tribute">
-  </a>
-    <a href="https://github.com/Najeeba-Qarqin/TributePage">GitHub Link</a>
-  </div>
-  <div class="project3">
-    <h1 class="project-tile">
-      Techniacal Documentation
-    </h1>
-    <a href="imgs/document.png">
-    <img src="imgs/document.png" alt="Documentation">
-  </a>
-    <a href="https://github.com/Najeeba-Qarqin/TechnicalDocumentation">GitHub Link</a>
-  </div>
-  <div class="project4">
-    <h1 class="project-tile">
-      Product Landing Page
-    </h1>
-    <a href="imgs/product.png">
-    <img src="imgs/product.png" alt="">
-    </a>
-    <a href="https://github.com/Najeeba-Qarqin/ProductLandingPage">GitHub Link</a>
-  </div>
-  </section>
-</section>
-<section id="contact">
-  <div class="contact">
-    <div>
-      <h1>About Me</h1>
-      <p>I'm a web developer <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit vitae temporibus, voluptates cum eos hic voluptas aut numquam quas 
-        distinctio reiciendis at, quae vero repellat molestias, laboriosam repellendus repudiandae amet.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, pariatur quaerat? Quis enim vitae inventore vel commodi maxime quas explicabo,
-        mollitia ipsa nesciunt, aut repellat natus exercitationem quisquam maiores suscipit.
-      </p>
+  <main class="flex">
+    <div id="home" class="flex">
+      <div class="prof flex">
+        <img src="imgs/prof.jpg" alt="prof">
+      </div>
+        <p class="home-content">Hello</p>
+        <h2 class="home-content">I'm Najeeba Qarqin</h2>
+        <h4 class="home-content">Web Developer</h4>
+        <p class="home-content">I'm intrested in learning web developing and positive to make deferent websites.
+        i want to improve my skills in this way to become profitional and work with other developers.
+        </p>
+        <br>
+      <div class="button">
+        <a href="#about">Learn More</a>
+        <a href="#contact">Contact Me</a>
+      </div>
     </div>
-    <h1>Get In Toch</h1>
-    <div>
-      <a target="_blank" href="najeebaqarqin@gmail.com" rel="noopener">
-      <img src="imgs/email.jpg" alt="email">
-    </a>
-      <a rel="noopener" target="_blank" href="https://www.linkedin.com/in/najeeba-qarqin-5419502ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" rel="noopener">
-      <img src="imgs/linkedin.jpg" alt="linkedin">
-    </a>
-    <a id="profile-link" target="_blank" href="https://github.com/Najeeba-Qarqin" rel="noopener">
-      <img src="imgs/github.jpg" alt="github">
-    </a>
+    <div id="about" class="flex">
+      <div>
+        <img src="imgs/about.jpg" alt="about">
+      </div>
+      <div>
+        <h2>About Me</h2>
+        <p>
+          I'm very intrested in all computer skills and want to improve my computer skills gradually.
+          I have learned responsive web design and I'm skilled in HTML and CSS, Now I can creat responsive websites using HTML and CSS.
+          Actively increasing my web developing skills to be a profitional web developer and apply my acquired skills and knowledge to real-world projects.
+        </p>
+      </div>
     </div>
-  </div>
-</section>
-  </body>
+    <div id="projects" class="projects flex">
+      <h1 class="project-title">Projects</h1>
+      <div class="project flex">
+        <div class="imgs">
+          <img src="imgs/survey-form.jpg" alt="surveyForm">
+        </div>
+        <h1>Survey Form</h1>
+        <p>My first Project is a Survey Form i created in HTML and CSS.</p>
+        <a target="_blank" rel="noopener" href="https://najeeba-qarqin.github.io/Survey-Form/">Visit</a>
+      </div>
+      <div class="project flex">
+        <div class="imgs">
+          <img src="imgs/tribute-page.jpg" alt="tributPage">
+        </div>
+        <h1>Tribute Page</h1>
+        <p>Tribute Page project about Mark Zukerberg's life, created in HTML and CSS.</p>
+        <a target="_blank" rel="noopener" href="https://najeeba-qarqin.github.io/TributePage/">Visit</a>
+      </div>
+      <div class="project flex">
+        <div class="imgs">
+          <img src="imgs/document.png" alt="technicalDocumentation">
+        </div>
+        <h1>Technical Documentation</h1>
+        <p>React technical documentation project, created in HTML and CSS.</p>
+        <a target="_blank" rel="noopener" href="https://najeeba-qarqin.github.io/TechnicalDocumentation-/">Visit</a>
+      </div>
+      <div class="project flex">
+        <div class="imgs">
+          <img src="imgs/product.png" alt="productLandingPage">
+        </div>
+        <h1>Product Landing Page</h1>
+        <p>Product landing page for a coffee shop, created in HTML and CSS.</p>
+        <a target="_blank" rel="noopener" class="project-tile" href="https://najeeba-qarqin.github.io/ProductLandingPage/">Visit</a>
+      </div>
+    </div>
+    <div class="project flex">
+      <h1>Certification</h1>
+      <div class="imgs">
+        <img src="imgs/certificate.png" alt="">
+      </div>
+      <p>FreeCodeCamp Responsive web design sertificate.</p>
+      <a target="_blank" rel="noopener" href="https://www.freecodecamp.org/certification/fccaf658213-24ff-48d8-a336-735deda38944/responsive-web-design">Visit</a>
+    </div>
+    <div id="contact" class="flex">
+      <h2>Contact Me</h2>
+      <br>
+      <br>
+      <div>
+        <div><a target="_blank"  rel="noopener" href="najeebaqarqin@gmail.com"><img src="imgs/email.jpg" alt="emil"></a></div>
+        <div><a target="_blank"  rel="noopener" href="https://github.com/Najeeba-Qarqin"><img src="imgs/github.jpg" alt="github"></a></div>
+        <div><a target="_blank"  rel="noopener" id="profile-link" href="https://www.linkedin.com/in/najeeba-qarqin-5419502ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="imgs/linkedin.jpg" alt="linkedin"></a></div>
+      </div>
+    </div>
+  </main>
+</body>
 </html>
